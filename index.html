@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">  
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- NAVBAR -->
+     <section class="nav-static">
+    <nav class="navbar navbar-expand-lg  bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="Logo.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#abt">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#our">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#port">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQs</a>
+              </li>
+            </ul>
+            <a href="#contact-navbtn"><button class="button-62">Contact Us</button></a>
+          </div>
+        </div>
+      </nav>
+    </section>
+      <!-- DESKTOP-CAROUSEL -->
+       <section class="">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="car1.jpg" class="d-none d-md-block w-100 " alt="...">
+            <img src="mob1.jpg" class="d-block d-md-none w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="car2.jpg" class="d-none  d-md-block  w-100" alt="...">
+            <img src="mob2.jpg" class="d-block d-md-none w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="car3.jpg" class="d-none d-md-block w-100" alt="...">
+            <img src="mob3.jpg" class="d-block d-md-none w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="car4.jpg" class="d-none d-md-block w-100" alt="...">
+            <img src="mob4.jpg" class="d-block d-md-none w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    
+    <!-- MOBILE-CAROUSEL -->
+    <!-- <section class="mobile-carousel">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="mob1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="mob2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="mob3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="mob4.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section> -->
+    
+    <!--ABOUT  -->
+    <section>
+        <div class="about-container" id="abt">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <h3 >About Us</h3>
+                    <h2 class="web-heading" >We Provide Best Designing Solutions</h2>
+                    <p>In today's digital age, a strong online presence is crucial for any Hyderabad business. At Genesis Enterprises, we specialize in creating responsive websites and implementing effective digital marketing strategies that will help you attract more customers and grow your business. Our team of experienced web designers, developers, and digital marketing specialists is passionate about helping businesses succeed online. We take the time to understand your unique needs and goals, and then develop a customized plan to achieve them.</p>
+                <a><button class="button-62">Learn more</button></a>
+                </div>
+                
+                <div class="col-md-4 col-sm-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-sm-6 col-md-6 col-6 ">
+                                <img src="c3.jpg" alt="" class="collage">
+                            </div>
+                            
+                            <div class=" col-sm-6 col-md-6 col-6 ">
+                                <img src="c4.png" alt="" class="collage">                           
+                            </div>
+                            <div class=" col-sm-6 col-md-6 col-6">
+                                <img src="c1.png" alt="" class="collage">
+                            </div>
+                            
+                            <div class=" col-sm-6  col-md-6 col-6">
+                                <img src="c2.jpg" alt="" class="collage">                           
+                            </div>
+                        </div>
+
+                        <!-- <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 colcontain">
+                                    <img src="c1.png" alt="" class="collage">
+                                </div>
+                                
+                                <div class="col-md-6 colcontain">
+                                    <img src="c2.jpg" alt="" class="collage">                           
+                                </div>
+                            </div>
+                        
+                    </div> -->
+                
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- OUR SERVICES -->
+    <section id="our">
+      <div class="our-services-cont">
+        <h2 class="web-heading ourservicesh2">Our Services</h2>
+      <div class="container" >
+                            <div class="row gap-4 justify-content-center pb-5">
+                        <div class="col-md-4  colcontain">
+                          <img src="" alt="">  
+                          <h4>Branding & Illustration Design</h4>
+                            <p>Draft compelling brand identities and captivating illustrations that resonate with your audience, bringing your brand story to life with creativity and purpose.
+
+                            </p>
+                        </div>
+                        <div class="col-md-4 colcontain">
+                          <img src="" alt="">
+                          <h4>UI/UX Design</h4>
+                            <p>Shape seamless digital experiences that prioritize user satisfaction and engagement, meticulously designing intuitive interfaces that enhance usability and drive conversion.
+
+                            </p>
+                      </div>
+                      <div class="col-md-4 colcontain">
+                        <img src="" alt="">
+                        <h4>Website Development</h4>
+                            <p>Transform your vision into a dynamic online presence, leveraging cutting-edge technologies to build responsive, visually stunning websites tailored to your unique business objectives.
+
+                            </p>
+                    </div>
+                        <div class="col-md-4 colcontain">
+                          <img src="" alt="">
+                          <h4>Mobile App Development</h4>
+                          <p>Develop innovative mobile solutions that elevate user experience and functionality, delivering sleek, feature-rich applications across iOS and Android platforms to meet your business needs.
+
+                          </p>
+                        </div>
+                        <div class="col-md-4 colcontain">
+                          <img src="" alt="">
+                          <h4>Digital Marketing & SEO Optimization</h4>
+                          <p>Drive growth and visibility with strategic digital campaigns and SEO techniques, maximizing online reach and enhancing brand presence to attract, engage, and convert your target audience.
+
+                          </p>
+                        </div>
+                        
+                        <div class="col-md-4 colcontain">
+                          <img src="" alt="">
+                          <h4>24/7 Service & Support</h4>
+                          <p>Ensure peace of mind with round-the-clock assistance and dedicated support, providing timely resolutions and expert guidance to address any queries or issues, empowering your business to thrive without interruption.
+
+                          </p>                           
+                        </div>
+                    
+        
+    </div>
+
+      </div>
+      
+
+
+    </section>
+
+    <!-- PORTFOLIO -->
+     <section id="port">
+      <section class="recent">
+        <div class="our-work row">
+          <h2 class="our-work-log web-heading col-md-6">Our Recent Work</h2>
+          <a class="our-work-btn col-md-6"><button class="button-62">View more</button></a>
+        </div>
+  
+        <!-- portfolio carousel -->
+        <div class="logos">
+          <div class="logo_items">
+          <img src="a.png" alt="" class="log-item">
+          <img src="b.png" alt=""class="log-item">
+          <img src="c.png" alt=""class="log-item">
+          <img src="d.png" alt=""class="log-item">          
+          <img src="e.png" alt=""class="log-item">
+          <img src="f.png" alt=""class="log-item">
+          <img src="g.png" alt=""class="log-item">
+          <img src="h.png" alt=""class="log-item">
+          <img src="i.png" alt=""class="log-item">
+          <img src="j.png" alt=""class="log-item">
+          <img src="k.png" alt=""class="log-item">
+          <img src="l.png" alt=""class="log-item">
+          <img src="m.png" alt=""class="log-item">
+          </div>
+            <div class="logo_items">
+              <img src="a.png" alt=""class="log-item">
+              <img src="b.png" alt=""class="log-item">
+              <img src="c.png" alt=""class="log-item">
+              <img src="d.png" alt=""class="log-item">          
+              <img src="e.png" alt=""class="log-item">
+              <img src="f.png" alt=""class="log-item">
+              <img src="g.png" alt=""class="log-item">
+              <img src="h.png" alt=""class="log-item">
+              <img src="i.png" alt=""class="log-item">
+              <img src="j.png" alt=""class="log-item">
+              <img src="k.png" alt=""class="log-item">
+              <img src="l.png" alt=""class="log-item">
+              <img src="m.png" alt=""class="log-item">
+          
+          </div>
+          </div>
+         
+  
+       </section>
+  
+
+     </section>
+          <!-- portfolio two -->
+      <section>
+        <div class="portfolio-two-blue">
+          <h2 class="web-heading portfolio-two-blue-h2">We specialize in providing tailored web & <br>Mobile solutions to businesses of all sizes.</h2>
+          <p class="portfolio-two-blue-p">Our Mission is to elevate your online presence, enhance user experiences,and help you achieve your digital<br>goals with Custom Website Designs, Responsive Designs, E-commerce Websites, SEO Optimization,<br> Maintenance and Support</p>
+          <section class="portfolio-two-section">
+            <div class="container">
+            <div class="row">
+                <div class=" col-md-4"><img src="human.png" alt="human image"  class="human-img"></div>
+
+
+<div class="col-md-8">
+  <img src="Logo.png" alt="">
+  <h4>We’re Trusted by More Than 3000 Clients.<br> We Can Provide Better Design for Your Digital Products</h4>
+  <p>Visit our portfolio to explore some of our most impressive web design <br>projects, each a testament to our commitment to excellence and<br> innovation.</p>
+</div>
+            </div>  
+            </div>
+              
+          </section>
+        </div>
+        
+      </section>
+      <!-- Testimonials -->
+      <section>
+        <h2 class="ourservicesh2">Happy Customers</h2>
+        <p class="testtag">Based on 3,000+ real users reviews</p>
+        <div class="container " id="abt" >
+                              <div class="row gap-4 justify-content-center pb-5 " >
+
+                          <div class="col-md-3 colcontain" >
+                            <img src="" alt="">  
+                            
+                              <p>We thank Genesis for wonderful job in helping us developing our program. Everyone was professional, Excellent and Hardworking. Thanks to them.
+
+  
+                              </p>
+                              <h4>Praveen Kumar</h4>
+                              <p class="customers">Customer</p>
+                          </div>
+
+
+                          <div class="col-md-3 colcontain">
+                            <img src="" alt="">  
+                            
+                              <p>We thank Genesis for wonderful job in helping us developing our program. Everyone was professional, Excellent and Hardworking. Thanks to them.
+
+  
+                              </p>
+                              <h4>Praveen Kumar</h4>
+                              <p class="customers">Customer</p>
+
+
+                        </div>
+
+
+                        <div class="col-md-3 colcontain">
+                          <img src="" alt="">  
+                            
+                              <p>We thank Genesis for wonderful job in helping us developing our program. Everyone was professional, Excellent and Hardworking. Thanks to them.
+
+  
+                              </p>
+                              <h4>Praveen Kumar</h4>
+                              <p class="customers">Customer</p>
+
+
+                      </div>
+
+
+                          <div class="col-md-3 colcontain">
+                            <img src="" alt="">  
+                            
+                              <p>We thank Genesis for wonderful job in helping us developing our program. Everyone was professional, Excellent and Hardworking. Thanks to them.
+
+  
+                              </p>
+                              <h4>Praveen Kumar</h4>
+                              <p class="customers">Customer</p>
+
+                          </div>
+
+
+                          <div class="col-md-3 colcontain">
+                            <img src="" alt="">  
+                            
+                              <p>We thank Genesis for wonderful job in helping us developing our program. Everyone was professional, Excellent and Hardworking. Thanks to them.
+
+  
+                              </p>
+                              <h4>Praveen Kumar</h4>
+                              <p class="customers">Customer</p>
+
+
+                          </div>
+                          
+                          <div class="col-md-3 colcontain">
+                            <img src="" alt="">  
+                            
+                              <p>We thank Genesis for wonderful job in helping us developing our program. Everyone was professional, Excellent and Hardworking. Thanks to them.
+
+  
+                              </p>
+                              <h4>Praveen Kumar</h4>
+                              <p class="customers">Customer</p>
+
+                           
+                          </div>
+                      
+
+          
+      </div>
+  
+  
+      </section>
+      <!-- FAQ ACCORDIAN -->
+       <section id="faq">
+
+        <div class="faq-container">
+          <div class="row">
+            <div class="col-md-6  ">
+              <h2>FAQs</h2>
+              <p class="web-heading">Ask us Anything</p>
+            </div>
+            <div class="col-md-6" >
+              <div class="accordion accordion-flush" id="accordionFlushExample" >
+                <div class="accordion-item" >
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne">
+                      <h3>What services do you offer?</h3>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      We offer a wide range of website design services, including custom
+                      website design, responsive design, e-commerce development, SEO
+                      optimization, and ongoing website maintenance and support.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo">
+                      <h3>How long does it take to complete a website design project?</h3>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      The project timeline varies depending on the complexity of the
+                      project. On average, a simple website can be completed in 4-6
+                      weeks, while more complex projects may take a few months.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree">
+                      <h3>How much does your website design service cost?</h3>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Our pricing is tailored to the specific needs of each project. We
+                      offer both fixed project rates and hourly rates, depending on the
+                      scope and requirements. Please contact us for a personalized
+                      quote.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour">
+                      <h3>Can you design a custom website that matches our brand's identity?</h3>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Yes, we can design a custom website that perfectly aligns with
+                      your brand's identity and vision. Our design team ensures that
+                      your website reflects your brand values, style, and goals.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+       </section>
+
+       <!-- CONTACT FORM -->
+        <section id="contact-navbtn">
+          <div class="contact-form">
+
+            <form action="#" method="post">
+              <h1 class="web-heading contactus">Build Your Business With Genesis  </h1>
+              <p class="contactus">Join over 3000+ of customers that already building amazing websites and Mobile Apps</p>
+            
+              <div class="column">
+                <label for="the-name">Your Name</label>
+                <input type="text" name="name" id="the-name">
+            
+                <label for="the-email">Email Address</label>
+                <input type="email" name="email" id="the-email">
+            
+                <label for="the-phone">Phone Number</label>
+                <input type="tel" name="phone" id="the-phone">
+            
+                <label for="the-reason">How can we help you?</label>
+                <select name="reason" id="the-reason">
+                <option value="">Choose one</option>
+                <option value="web">I need web design services</option>
+                <option value="video">I need an ERP software</option>
+                <option value="3d">I need a web application</option>
+              </select>
+              </div>
+              <div class="column">
+                <label for="the-message">Message</label>
+                <textarea name="message" id="the-message"></textarea>
+                <label>
+                <input type="checkbox" name="newsletter" value="yes"> Join our mailing list?
+                </label>
+                <input type="submit" value="Send Message">
+              </div>
+            </form>
+  
+
+          </div>
+
+        </section>
+
+        <!-- FOOTER -->
+         <section class="footer footer-cont">
+          <div class="foot-container">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="Logo.png" alt="Logo">
+                <p class="footer-logo-text">At Genesis we are passionate about crafting exceptional websites that not only look stunning but also drive results. With a team of highly skilled and creative web designers, we specialize in providing tailored web design solutions to businesses of all sizes.</p>
+              </div>
+              <div class="col-md-4">
+                <h2>Services</h2>
+                <ul class="">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Our Services</a></li>
+                  <li><a href="">Portfolio</a></li>
+                  <li><a href="">FAQ's</a></li>
+                  <li><a href="">Contact Us</a></li>
+                </ul>
+
+              </div>
+              <div class="col-md-4">
+                <h2>Get in Touch</h2>
+                <ul class="">
+                  <li><a href="">Home</a></li>
+                  <li><a href="mailto:sales@genesis.in.net">sales@genesis.in.net</a></li>
+                  <li><a href="">Genesis Enterprises</a></li>
+                  <li>Branch Offices HYDERABAD/BANGALORE/MUMBAI</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+         </section>
+       
+       
+</body>
+
+
+</html>
